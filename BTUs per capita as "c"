@@ -9,4 +9,4 @@ with open('Assignment1_data.csv', 'r') as f:
     for line in reader:
         rank_list.append(line[2])
         
-     print(line[2]) 
+     print(rank_list) 
