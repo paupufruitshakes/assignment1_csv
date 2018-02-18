@@ -1,8 +1,13 @@
 def a (parameters):
     "Assignment1 column 1 Rank in Energy Use"
+ 
+ energy_list =[]
     
 import csv
 with open('Assignment1_data.csv', 'r') as f:
     reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
     for line in reader:
-        print(line[0]) 
+        
+        energy_list.append(line[0])
+        
+    print(energy_list) 
