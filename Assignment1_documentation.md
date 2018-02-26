@@ -9,7 +9,7 @@ Assignment 1 Overview:
 	1. Default
 	2. CSV
 	3. HTML Tables
-	4.JSON files
+	4. JSON files
 
 2. Print assignment1 data line by line using command prompt as:
 	1. Default
