@@ -6,22 +6,22 @@ Assignment 1 Overview:
 ----------------------
 
 1. Print assignment_1 data using command prompt as:
-	-Default
-	-CSV
-	-HTML Tables
-	-JSON files
+	1. Default
+	2. CSV
+	3. HTML Tables
+	4.JSON files
 
 2. Print assignment1 data line by line using command prompt as:
-	-Default
-	-CSV
-	-HTML Tables
-	-JSON files
+	1. Default
+	2. CSV
+	3. HTML Tables
+	4. JSON files
 
 3. Creating new list from assignment1 data using functions: 
-	-Create functions, which return all data from each column
-	-Create a list of all returned values from functions
-	-Duplicate list and change the headings from Rank, State, BTUs to (a, b, c)
-	-Return (print) the list.
+	1. Create functions, which return all data from each column
+	2. Create a list of all returned values from functions
+	3. Duplicate list and change the headings from Rank, State, BTUs to (a, b, c)
+	4. Return (print) the list.
 
 
 
@@ -55,7 +55,7 @@ Write a script that imports functions to populate a new list. Duplicate the list
 	
 	Traceback (most recent call last):
   	File "<stdin>", line 1, in <module>
-	ModuleNotFoundError: No module named
+	ModuleNotFoundError: No module named 'a'
 
 
 5. Results
