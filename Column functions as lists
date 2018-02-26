@@ -13,7 +13,7 @@ def a():
 
     print(energy_list) 
             
-def b()
+def b():
 
     """Assignment1_data.csv column 2 State"""
     
@@ -28,7 +28,7 @@ def b()
 
     print(state_list)
             
-def c()
+def c():
 
     """Assignment1_data.csv column 3 BTU per capita"""
     
