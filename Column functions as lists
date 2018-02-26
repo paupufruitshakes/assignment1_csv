@@ -11,7 +11,7 @@ def a():
         for line in reader:
             energy_list.append(line[0])
 
-            print(energy_list) 
+    print(energy_list) 
             
 def b()
 
@@ -26,7 +26,7 @@ def b()
         for line in reader:
             state_list.append(line[1])
 
-            print(state_list)
+    print(state_list)
             
 def c()
 
@@ -41,4 +41,4 @@ def c()
         for line in reader:
             BTU_list.append(line[2])
 
-            print(BTU_list) 
+    print(BTU_list) 
