@@ -48,9 +48,14 @@ Write a script that imports functions to populate a new list. Duplicate the list
 
 4. Steps of what happend:
 	1. Wrote a script for three functions.
-	2. For each function, created a list and appended a column to list. Had three functions in total "a, b, c" representing column headings "Rank, State, BTUs per capita"
-	3. The script without the function syntax prints a list with targeted column data. When I write the same script as a function, output is blank. No error message, or any printed return. 
-	4. Potentially have incorrect indentations.
+	2. For each function, created a list and appended a column to list. Had three functions in total "a, b, c" representing column
+	headings "Rank, State, BTUs per capita"
+	3. The script without the function syntax prints a list with targeted column data. When I write the same script as a function,
+	output is:
+	
+	Traceback (most recent call last):
+  	File "<stdin>", line 1, in <module>
+	ModuleNotFoundError: No module named
 
 
 5. Results
