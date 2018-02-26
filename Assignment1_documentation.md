@@ -33,7 +33,8 @@ Part 1.3 CSV file: Populated a new list using function data:
 	Import functions which will create a list with newly labeled headers.
 
 2. Design section:
-Write a script that imports functions to populate a new list. Duplicate the list and change the headings "a, b, c" rather than "Rank, State, BTUs". 
+	Write a script that imports functions to populate a new list. Duplicate the list and change the 
+	headings "a, b, c" rather than "Rank, State, BTUs". 
 
 3. Pseudo code: 
 	1. Create function parameters to iterate one csv column.
@@ -52,10 +53,9 @@ Write a script that imports functions to populate a new list. Duplicate the list
 	headings "Rank, State, BTUs per capita"
 	3. The script without the function syntax prints a list with targeted column data. When I write the same script as a function,
 	output is:
-	
-	Traceback (most recent call last):
-  	File "<stdin>", line 1, in <module>
-	ModuleNotFoundError: No module named 'a'
+		Traceback (most recent call last):
+		File "<stdin>", line 1, in <module>
+		ModuleNotFoundError: No module named 'a'
 
 
 5. Results
