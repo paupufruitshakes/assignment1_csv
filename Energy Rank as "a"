@@ -1,13 +1,44 @@
-def a (parameters):
-    "Assignment1 column 1 Rank in Energy Use"
- 
- energy_list =[]
+def a():
+
+    """Assignment1_data.csv column 1 Energy Rank"""
     
-import csv
-with open('Assignment1_data.csv', 'r') as f:
-    reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
-    for line in reader:
-        
-        energy_list.append(line[0])
-        
-    print(energy_list) 
+    import csv
+
+    energy_list = []
+
+    with open('Assignment1_data.csv', 'r') as f:
+        reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+        for line in reader:
+            energy_list.append(line[0])
+
+            print(energy_list) 
+            
+def b()
+
+    """Assignment1_data.csv column 2 State"""
+    
+    import csv
+
+    state_list = []
+
+    with open('Assignment1_data.csv', 'r') as f:
+        reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+        for line in reader:
+            state_list.append(line[1])
+
+            print(state_list)
+            
+def c()
+
+    """Assignment1_data.csv column 3 BTU per capita"""
+    
+    import csv
+
+    BTU_list = []
+
+    with open('Assignment1_data.csv', 'r') as f:
+        reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+        for line in reader:
+            BTU_list.append(line[2])
+
+            print(BTU_list) 
