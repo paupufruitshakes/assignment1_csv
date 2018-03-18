@@ -1,6 +1,4 @@
 def a():
-
-    """Assignment1_data.csv column 1 Energy Rank"""
     
     import csv
 
@@ -12,10 +10,9 @@ def a():
             energy_list.append(line[0])
 
     print(energy_list) 
-            
+      
+      
 def b():
-
-    """Assignment1_data.csv column 2 State"""
     
     import csv
 
@@ -27,10 +24,9 @@ def b():
             state_list.append(line[1])
 
     print(state_list)
-            
+   
+   
 def c():
-
-    """Assignment1_data.csv column 3 BTU per capita"""
     
     import csv
 
