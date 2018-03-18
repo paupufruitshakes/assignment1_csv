@@ -61,10 +61,11 @@ Part 1.3 CSV file: Populated a new list using function data:
 5. Results
 
 Attempt 1:
+		
 		def a():
 			"""Assignment1_data.csv column 1 Energy Rank"""
    		 	import csv
-
+	
    			energy_list = []
 
    			with open('Assignment1_data.csv', 'r') as f:
@@ -89,6 +90,45 @@ Attempt 1:
 
    		def c():
    		"""Assignment1_data.csv column 3 BTU per capita"""
+   		 	import csv
+
+   			BTU_list = []
+
+   			with open('Assignment1_data.csv', 'r') as f:
+   			reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+   			for line in reader:
+   				BTU_list.append(line[0])
+
+   			print(energy_list) 
+			
+Attempt 2: Removed annotations, able to call functions in IDLE
+
+
+		def a():
+   		 	import csv
+	
+   			energy_list = []
+
+   			with open('Assignment1_data.csv', 'r') as f:
+   			reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+   			for line in reader:
+   				energy_list.append(line[0])
+
+   			print(energy_list) 
+
+   		def b():
+   		 	import csv
+
+   			state_list = []
+
+   			with open('Assignment1_data.csv', 'r') as f:
+   			reader = csv.reader(f, delimiter = ',', quoting = csv.QUOTE_ALL)
+   			for line in reader:
+   				state_list.append(line[0])
+
+   			print(energy_list) 
+
+   		def c():
    		 	import csv
 
    			BTU_list = []
