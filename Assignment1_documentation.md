@@ -150,9 +150,9 @@ Pseudo Code line 6-7 steps:
 	
 		def energy_consumption(state, rank, BTUs):
 		
-			import a
-			import b
-			import c
+			from a import function
+			from b import function
+			from c import function
 			
 			energy_data = []
 			
