@@ -40,14 +40,13 @@ Part 1.3 CSV file: Populated a new list using function data:
 	1. Create function parameters to iterate one csv column.
 	2. Import csv file.
 	3. Create a new list.
-	4. Iterate one csv column into list.
+	4. Iterate a csv column into list.
 	5. Repeat, create a function for each column. 
-	6. Use loop and append to iterate data into new list.
-	8. Iterate each function into a new list. 
-	9. Make a dictionary from new list.
-	10. Use dictinary keys to change column headings to "a, b, c" from "Rank, State, BTUs per capita"
+	6. Import functions and create a loop that iterates data into a list of dictionaries. 
+	Dictionaries have keys "Rank, State, BTUs per capita". 
+	7. Change dictionary keys from "Rank, State, BTUs per capita" to "a, b, c"
 
-4. Steps of what happend:
+4. Pseudo code lines 1-5:
 	1. Wrote a script for three functions.
 	2. For each function, created a list and appended a column to list. Had three functions in total "a, b, c" representing column
 	headings "Rank, State, BTUs per capita"
@@ -57,10 +56,9 @@ Part 1.3 CSV file: Populated a new list using function data:
 		File "<stdin>", line 1, in <module>
 		ModuleNotFoundError: No module named 'a'
 
+	Results:
 
-5. Results
-
-Attempt 1:
+	Attempt 1:
 		
 		def a():
 			"""Assignment1_data.csv column 1 Energy Rank"""
@@ -139,3 +137,31 @@ Attempt 2: Removed annotations, able to call functions in IDLE
    				BTU_list.append(line[0])
 
    			print(energy_list) 
+
+Pseudo Code line 6-7 steps:
+	1. Create a new function with parameters rank, state, BTUs.
+	2. Import energy data functions.
+	3. Create an empty list.
+	4. Create a for loop that iterates function data into the list. Use the same index for each function to create multiple
+	dictionaries within the empty list. 
+	
+
+	Result:
+	
+		def energy_consumption(state, rank, BTUs):
+		
+			import a
+			import b
+			import c
+			
+			energy_data = []
+			
+			for x in range[0, len(a)]:
+				{
+					state: b(x),
+					rank: a(x),
+					BTUs: c(x),
+				}
+		
+		
+	
